@@ -1,0 +1,52 @@
+
+.row.no-gutters .col p.text-center {
+    margin:0;
+}
+
+#top-left {
+    border-right: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+}
+
+#top-mid {
+    border-left: 0.125rem solid black;
+    border-right: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+}
+
+#top-right {
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+}
+
+#mid-left {
+    border-top: 0.125rem solid black;
+    border-right: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+}
+
+#mid-mid {
+    border: 0.125rem solid black;
+}
+
+#mid-right {
+    border-top: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+}
+
+#bot-left {
+    border-top: 0.125rem solid black;
+    border-right: 0.125rem solid black;
+}
+
+#bot-mid {
+    border-left: 0.125rem solid black;
+    border-top: 0.125rem solid black;
+    border-right: 0.125rem solid black;
+}
+
+#bot-right {
+    border-left: 0.125rem solid black;
+    border-top: 0.125rem solid black;
+}
