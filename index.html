@@ -24,40 +24,46 @@
 -->
 
 <body>
+    <h1>TicTacToe</h1>
+    <p>Which box do you want to place an X in?</p>
+    <form>
+        <input type="text" id="myform">
+        <button onclick="markGrid(event)">Submit</button>
+    </form>
     <div class="container">
         <div class="card">
             <div class="card-body">
                 <div class="row no-gutters">
                     <div class="col">
-                        <p class="text-center" id="top-left">O</p>
+                        <p class="text-center" id="top-left">1</p>
                     </div>
                     <div class="col">
-                        <p class="text-center" id="top-mid">X</p>
+                        <p class="text-center" id="top-mid">2</p>
                     </div>
                     <div class="col">
-                        <p class="text-center" id="top-right">O</p>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col">
-                        <p class="text-center" id="mid-left">X</p>
-                    </div>
-                    <div class="col">
-                        <p class="text-center" id="mid-mid">O</p>
-                    </div>
-                    <div class="col">
-                        <p class="text-center" id="mid-right">O</p>
+                        <p class="text-center" id="top-right">3</p>
                     </div>
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <p class="text-center" id="bot-left">X</p>
+                        <p class="text-center" id="mid-left">4</p>
                     </div>
                     <div class="col">
-                        <p class="text-center" id="bot-mid">O</p>
+                        <p class="text-center" id="mid-mid">5</p>
                     </div>
                     <div class="col">
-                        <p class="text-center" id="bot-right">X</p>
+                        <p class="text-center" id="mid-right">6</p>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <p class="text-center" id="bot-left">7</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-center" id="bot-mid">8</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-center" id="bot-right">9</p>
                     </div>
                 </div>
             </div>
