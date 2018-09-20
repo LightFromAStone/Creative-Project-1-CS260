@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Tic-Tac-Toe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -12,6 +12,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
 </head>
+
+<!-- 
+    To do:
+        - Give page a title/site name, stylized (fun font?)
+        - Create element(s) for "How to Play"
+        - Add style to page background, card div, etc.
+        - Add onClick event each col div
+        - Create "Play Again" button element with javascript to remove any text from p elements (clears board)
+-->
+
 <body>
     <div class="container">
         <div class="card">
@@ -21,7 +31,7 @@
                         <p class="text-center" id="top-left">O</p>
                     </div>
                     <div class="col">
-                        <p class="text-center" id="top-mid"></p>
+                        <p class="text-center" id="top-mid">X</p>
                     </div>
                     <div class="col">
                         <p class="text-center" id="top-right">O</p>
@@ -29,7 +39,7 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <p class="text-center" id="mid-left">O</p>
+                        <p class="text-center" id="mid-left">X</p>
                     </div>
                     <div class="col">
                         <p class="text-center" id="mid-mid">O</p>
@@ -40,13 +50,13 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <p class="text-center" id="bot-left">O</p>
+                        <p class="text-center" id="bot-left">X</p>
                     </div>
                     <div class="col">
                         <p class="text-center" id="bot-mid">O</p>
                     </div>
                     <div class="col">
-                        <p class="text-center" id="bot-right">O</p>
+                        <p class="text-center" id="bot-right">X</p>
                     </div>
                 </div>
             </div>

@@ -1,23 +1,25 @@
-/* .col {
-    height: 6rem;
-    width: 6rem;
+
+p:empty {
+    height: 7.5rem;
+    width: 7.5rem;
 }
 
-.row {
-    height: 6rem;
-    width: 6rem;
-} */
 .card {
-    height: 400px;
-    width: 400px;
+    height: 25.25rem;
+    width: 25.25rem;
+}
+
+.card-body {
+    height: 25rem;
+    width: 25rem;
 }
 
 .row.no-gutters .col p.text-center {
     margin:0;
-    font-size: 5rem;
-    /* height: 112px;
-    width: 112px; */
+    font-size: 4.85rem;
     justify-content: center;
+    height: 7.5rem;
+    width: 7.5rem;
 }
 
 #top-left {
