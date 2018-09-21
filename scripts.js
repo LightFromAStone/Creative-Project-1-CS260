@@ -48,10 +48,12 @@ function markGrid(event)
             if(win ==3){
                 alert("You Win!");
                 location.reload();
+                return;
             }
             if(AllPossSpots.length==0){
                 alert("It's a draw!")
                 location.reload();
+                return;
             }
 
         }
@@ -76,13 +78,14 @@ function markGrid(event)
             if(win ==3){
                 alert("Your Opponent Won!");
                 location.reload();
+                return;
             }
         }
     }
     else{
         alert("That spot is unavailable!")
     }
-
+    document.getElementById("myform").value = null;
 
     
 }
